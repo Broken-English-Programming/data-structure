@@ -7,8 +7,7 @@ typedef struct {
     int top;        // Variable to keep track of the top element in the stack
 } stack;
 
-// Function prototypes
-define the stack structure with its methods
+// Function prototypes define the stack structure with its methods
 void createNewStack(stack *); 
 void push(stack *, int);
 int isFull(stack *);
